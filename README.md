@@ -54,6 +54,5 @@ For local testing and development, this project uses:
 
 You can run the application locally before deploying to GKE:
 
-[mnist_Kubernetes](https://github.com/wyccsc/mnist_Kubernetes)
+Github: [mnist_Kubernetes](https://github.com/wyccsc/mnist_Kubernetes)
 
----
