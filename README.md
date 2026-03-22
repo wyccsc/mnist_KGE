@@ -39,6 +39,13 @@ gcloud projects add-iam-policy-binding PROJECT_ID \
 
 ---
 
+## 🧠 Notes
+
+* This repository focuses on deployment GKE rather than application development
+* Designed for learning cloud-native deployment workflows
+
+---
+
 ## Local Development
 
 For local testing and development, this project uses:
@@ -50,11 +57,3 @@ You can run the application locally before deploying to GKE:
 [mnist_Kubernetes](https://github.com/wyccsc/mnist_Kubernetes)
 
 ---
-
-## 🧠 Notes
-
-* This repository focuses on deployment GKE rather than application development
-* Designed for learning cloud-native deployment workflows
-
----
-
