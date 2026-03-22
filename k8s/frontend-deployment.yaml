@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: frontend-service
-          image: asia-east1-docker.pkg.dev/project-4b2b1b7d-749b-4bd1-93b/my-repo/kge_frontend-service:1.0.3
+          image: asia-east1-docker.pkg.dev/project-4b2b1b7d-749b-4bd1-93b/my-repo/kge_frontend-service:1.0.4
           ports:
             - containerPort: 80
 
