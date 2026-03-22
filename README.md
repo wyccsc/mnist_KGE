@@ -10,7 +10,7 @@ This project demonstrates how to:
 * Use Kubernetes manifests (`Deployment`, `Service`, etc.)
 * Manage multi-service architecture (API, frontend, model)
 
-The repository serves as a hands-on example of deploying applications in a cloud-native environment using Kubernetes. ([pkg.go.dev][1])
+The repository serves as a hands-on example of deploying applications in a cloud-native environment using Kubernetes.
 
 ---
 
