@@ -39,7 +39,13 @@ gcloud projects add-iam-policy-binding PROJECT_ID \
 
 ---
 
-## 🧠 Notes
+## Demo
+
+Video: [MNIST Inference on Google Kubernetes Engine](https://youtu.be/7uNudJAonbc)
+
+---
+
+## Notes
 
 * This repository focuses on deployment GKE rather than application development
 * Designed for learning cloud-native deployment workflows
