@@ -37,6 +37,16 @@ gcloud projects add-iam-policy-binding PROJECT_ID \
 
 * Copy the YAML files to Google Cloud Shell
 
+* Apply the YAML
+
+* Change the external IP for the API service in the frontend service
+
+* Create a new version of the frontend service image
+
+* Update the image tag in the frontend-deployment.yaml file
+
+* Rolling update the frontend deployment
+
 ---
 
 ## Demo
