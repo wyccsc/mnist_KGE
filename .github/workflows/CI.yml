@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  # 🔍 Step 1: Detect changes
+
   changes:
     runs-on: ubuntu-latest
     outputs:
@@ -34,7 +34,7 @@ jobs:
             model:
               - 'model-service/**'
 
-  # 🟡 API
+
   api:
     name: Build API
     needs: changes
@@ -84,7 +84,7 @@ jobs:
             ${{ secrets.DOCKER_USERNAME }}/kge_api_service:${{ steps.bump.outputs.VERSION }}
             ${{ secrets.DOCKER_USERNAME }}/kge_api_service:latest
 
-  # 🔵 Frontend
+
   frontend:
     name: Build Frontend
     needs: changes
@@ -134,7 +134,7 @@ jobs:
             ${{ secrets.DOCKER_USERNAME }}/kge_frontend_service:${{ steps.bump.outputs.VERSION }}
             ${{ secrets.DOCKER_USERNAME }}/kge_frontend_service:latest
 
-  # 🟢 Model
+
   model:
     name: Build Model
     needs: changes
